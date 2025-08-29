@@ -50,7 +50,7 @@ print("Number of Samples:", len(X))
 print("Target Labels:", y)
 ```
 
-Output:  
+**Output:**
 - The dataset has **150 rows and 4 features**.  
 - Targets are encoded as numbers (0, 1, 2).  
 
@@ -112,7 +112,7 @@ You should get accuracy around **95-97%**.
 We print both correct and wrong predictions:  
 
 ```python
-print("🔍 Prediction Results:")
+print("Prediction Results:")
 for i in range(len(y_test)):
     actual = iris.target_names[y_test[i]]
     predicted = iris.target_names[y_pred[i]]
@@ -120,7 +120,7 @@ for i in range(len(y_test)):
     print(f"Sample {i + 1}: Predicted = {predicted}, Actual = {actual} -> {status}")
 ```
 
-Example Output:  
+**Example Output:**  
 ```
 Sample 1: Predicted = virginica, Actual = virginica -> Correct
 Sample 2: Predicted = versicolor, Actual = versicolor -> Correct
@@ -130,7 +130,7 @@ Sample 3: Predicted = virginica, Actual = versicolor -> Wrong
 
 ---
 
-## 🎯 Summary  
+## Summary  
 👉 This demonstrates the **supervised learning workflow**: **Data → Split → Train → Predict → Evaluate**  
 
 ---
