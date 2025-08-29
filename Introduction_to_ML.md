@@ -120,6 +120,11 @@ for i in range(len(y_test)):
     print(f"Sample {i + 1}: Predicted = {predicted}, Actual = {actual} -> {status}")
 ```
 
+Here:
+- y_test[i] → gives the actual numeric class (0/1/2).
+- y_pred[i] → gives the predicted numeric class (0/1/2).
+- iris.target_names[...] → converts that number into a flower name (string).
+
 **Example Output:**  
 ```
 Sample 1: Predicted = virginica, Actual = virginica -> Correct
