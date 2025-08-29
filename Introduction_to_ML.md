@@ -2,22 +2,20 @@
 
 This project demonstrates how to implement the **k-Nearest Neighbour (k-NN) algorithm** on the famous **Iris dataset** using Python and scikit-learn.  
 
-We will go step by step, so students can copy and run **chunk by chunk** instead of running the whole code at once.  
-
 ---
 
 ## Step 1: Setup — Virtual Environment & Installation
-
+First create a folder with name and location of you choice. Then open the folder in your favourite Editor of your choice or VS Code.  
 ### Create Virtual Environment
 ```bash
-# Create a virtual environment named "iris_env"
 python -m venv venv
 ```
 
 ### Activate Virtual Environment
 - **Windows (PowerShell):**
 ```bash
-venv\Scripts\activate
+cd <newly_created_folder>
+.\venv\Scripts\activate
 ```
 ### Install Required Library  
 Make sure you have scikit-learn installed:  
@@ -28,7 +26,11 @@ pip install scikit-learn
 
 ---
 
-## Step 2: Import Libraries
+## Step 2: Create a Python file and Import Libraries
+
+```bash
+KNN_iris.py
+```
 
 ```python
 from sklearn.datasets import load_iris
